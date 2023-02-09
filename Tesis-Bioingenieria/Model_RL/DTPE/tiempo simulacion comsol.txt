@@ -1,0 +1,144 @@
+load('BBDD_parametros.mat')
+    {'VOLUME'   }    {'1*10^-5[m^3]'     }    {'GEOMETRIA    - …'}    {[1.0000e-05]}    {'m^3'      }
+    {'RAIO'     }    {'0.028[m]'         }    {'GEOMETRIA    - …'}    {[    0.0280]}    {'m'        }
+    {'ALTURA'   }    {'VOLUME/(pi*RAIO…'}    {'GEOMETRIA    - …'}    {[    0.0041]}    {'m'        }
+    {'To'       }    {'24.8[degC]'       }    {'PROB.FÍSICO   -…'}    {[  297.9500]}    {'K'        }
+    {'Tinf'     }    {'24.8[degC]'       }    {'PROB.FÍSICO   -…'}    {[  297.9500]}    {'K'        }
+    {'hconv'    }    {'10[W/(m^2*K)]'    }    {'PROB.FÍSICO   -…'}    {[        10]}    {'W/(m^2*K)'}
+    {'r_laser'  }    {'(11/2)[mm]'       }    {'PROB.FÍSICO   -…'}    {[    0.0055]}    {'m'        }
+    {'A_laser'  }    {'pi*(r_laser^2)'   }    {'PROB.FÍSICO   -…'}    {[9.5033e-05]}    {'m^2'      }
+    {'P_laser'  }    {'0.327[W]'         }    {'PROB.FÍSICO   -…'}    {[    0.3270]}    {'W'        }
+    {'F'        }    {'2*P_laser/A_laser'}    {'PROB.FÍSICO   -…'}    {[6.8818e+03]}    {'W/m^2'    }
+    {'Mi_H2O'   }    {'79.79420909101637'}    {'PROPRIEDADE - C…'}    {[   79.7942]}    {0×0 char   }
+    {'R_H2O'    }    {'0.02'             }    {'PROPRIEDADE - R…'}    {[    0.0200]}    {0×0 char   }
+    {'Tref'     }    {'Tinf'             }    {0×0 char           }    {[  297.9500]}    {'K'        }
+    {'mu1'      }    {'1.0017*(10^-3)[…'}    {'PROPRIEDADE - P…'}    {[    0.0010]}    {'Pa*s'     }
+    {'Cp1'      }    {'3808.9458979771…'}    {'PROPRIEDADE - P…'}    {[3.8089e+03]}    {0×0 char   }
+    {'rho1'     }    {'939.6750128861412'}    {'PROPRIEDADE - P…'}    {[  939.6750]}    {0×0 char   }
+    {'k1'       }    {'0.631750537695867'}    {'PROPRIEDADE - P…'}    {[    0.6318]}    {0×0 char   }
+    {'alphap1'  }    {'0.0002066[1/K]'   }    {0×0 char           }    {[2.0660e-04]}    {'1/K'      }
+    {'u_x'      }    {'0[m/s]'           }    {0×0 char           }    {[         0]}    {'m/s'      }
+    {'v_y'      }    {'0[m/s]'           }    {0×0 char           }    {[         0]}    {'m/s'      }
+    {'w_z'      }    {'0[m/s]'           }    {0×0 char           }    {[         0]}    {'m/s'      }
+    {'t_inicial'}    {'0'                }    {'TEMPO          …'}    {[         0]}    {0×0 char   }
+    {'t_final'  }    {'96'               }    {'TEMPO          …'}    {[        96]}    {0×0 char   }
+    {'delta_t'  }    {'1'                }    {'TEMPO          …'}    {[         1]}    {0×0 char   }
+    {'EIXO_x'   }    {'10[mm]'           }    {0×0 char           }    {[    0.0100]}    {'m'        }
+    {'EIXO_y'   }    {'0[m]'             }    {0×0 char           }    {[         0]}    {'m'        }
+
+Elapsed time is 1615.749100 seconds.
+    {'VOLUME'   }    {'1*10^-5[m^3]'     }    {'GEOMETRIA    - …'}    {[1.0000e-05]}    {'m^3'      }
+    {'RAIO'     }    {'0.028[m]'         }    {'GEOMETRIA    - …'}    {[    0.0280]}    {'m'        }
+    {'ALTURA'   }    {'VOLUME/(pi*RAIO…'}    {'GEOMETRIA    - …'}    {[    0.0041]}    {'m'        }
+    {'To'       }    {'24.8[degC]'       }    {'PROB.FÍSICO   -…'}    {[  297.9500]}    {'K'        }
+    {'Tinf'     }    {'24.8[degC]'       }    {'PROB.FÍSICO   -…'}    {[  297.9500]}    {'K'        }
+    {'hconv'    }    {'10[W/(m^2*K)]'    }    {'PROB.FÍSICO   -…'}    {[        10]}    {'W/(m^2*K)'}
+    {'r_laser'  }    {'(11/2)[mm]'       }    {'PROB.FÍSICO   -…'}    {[    0.0055]}    {'m'        }
+    {'A_laser'  }    {'pi*(r_laser^2)'   }    {'PROB.FÍSICO   -…'}    {[9.5033e-05]}    {'m^2'      }
+    {'P_laser'  }    {'0.327[W]'         }    {'PROB.FÍSICO   -…'}    {[    0.3270]}    {'W'        }
+    {'F'        }    {'2*P_laser/A_laser'}    {'PROB.FÍSICO   -…'}    {[6.8818e+03]}    {'W/m^2'    }
+    {'Mi_H2O'   }    {'3.646753975171018'}    {'PROPRIEDADE - C…'}    {[    3.6468]}    {0×0 char   }
+    {'R_H2O'    }    {'0.02'             }    {'PROPRIEDADE - R…'}    {[    0.0200]}    {0×0 char   }
+    {'Tref'     }    {'Tinf'             }    {0×0 char           }    {[  297.9500]}    {'K'        }
+    {'mu1'      }    {'1.0017*(10^-3)[…'}    {'PROPRIEDADE - P…'}    {[    0.0010]}    {'Pa*s'     }
+    {'Cp1'      }    {'4793.377676230973'}    {'PROPRIEDADE - P…'}    {[4.7934e+03]}    {0×0 char   }
+    {'rho1'     }    {'1060.1201227945…'}    {'PROPRIEDADE - P…'}    {[1.0601e+03]}    {0×0 char   }
+    {'k1'       }    {'0.5697005201831…'}    {'PROPRIEDADE - P…'}    {[    0.5697]}    {0×0 char   }
+    {'alphap1'  }    {'0.0002066[1/K]'   }    {0×0 char           }    {[2.0660e-04]}    {'1/K'      }
+    {'u_x'      }    {'0[m/s]'           }    {0×0 char           }    {[         0]}    {'m/s'      }
+    {'v_y'      }    {'0[m/s]'           }    {0×0 char           }    {[         0]}    {'m/s'      }
+    {'w_z'      }    {'0[m/s]'           }    {0×0 char           }    {[         0]}    {'m/s'      }
+    {'t_inicial'}    {'0'                }    {'TEMPO          …'}    {[         0]}    {0×0 char   }
+    {'t_final'  }    {'96'               }    {'TEMPO          …'}    {[        96]}    {0×0 char   }
+    {'delta_t'  }    {'1'                }    {'TEMPO          …'}    {[         1]}    {0×0 char   }
+    {'EIXO_x'   }    {'10[mm]'           }    {0×0 char           }    {[    0.0100]}    {'m'        }
+    {'EIXO_y'   }    {'0[m]'             }    {0×0 char           }    {[         0]}    {'m'        }
+
+Elapsed time is 1549.457378 seconds.
+
+    {'VOLUME'   }    {'1*10^-5[m^3]'     }    {'GEOMETRIA    - …'}    {[1.0000e-05]}    {'m^3'      }
+    {'RAIO'     }    {'0.028[m]'         }    {'GEOMETRIA    - …'}    {[    0.0280]}    {'m'        }
+    {'ALTURA'   }    {'VOLUME/(pi*RAIO…'}    {'GEOMETRIA    - …'}    {[    0.0041]}    {'m'        }
+    {'To'       }    {'24.8[degC]'       }    {'PROB.FÍSICO   -…'}    {[  297.9500]}    {'K'        }
+    {'Tinf'     }    {'24.8[degC]'       }    {'PROB.FÍSICO   -…'}    {[  297.9500]}    {'K'        }
+    {'hconv'    }    {'10[W/(m^2*K)]'    }    {'PROB.FÍSICO   -…'}    {[        10]}    {'W/(m^2*K)'}
+    {'r_laser'  }    {'(11/2)[mm]'       }    {'PROB.FÍSICO   -…'}    {[    0.0055]}    {'m'        }
+    {'A_laser'  }    {'pi*(r_laser^2)'   }    {'PROB.FÍSICO   -…'}    {[9.5033e-05]}    {'m^2'      }
+    {'P_laser'  }    {'0.327[W]'         }    {'PROB.FÍSICO   -…'}    {[    0.3270]}    {'W'        }
+    {'F'        }    {'2*P_laser/A_laser'}    {'PROB.FÍSICO   -…'}    {[6.8818e+03]}    {'W/m^2'    }
+    {'Mi_H2O'   }    {'45.08'            }    {'PROPRIEDADE - C…'}    {[   45.0800]}    {0×0 char   }
+    {'R_H2O'    }    {'0.02'             }    {'PROPRIEDADE - R…'}    {[    0.0200]}    {0×0 char   }
+    {'Tref'     }    {'Tinf'             }    {0×0 char           }    {[  297.9500]}    {'K'        }
+    {'mu1'      }    {'1.0017*(10^-3)[…'}    {'PROPRIEDADE - P…'}    {[    0.0010]}    {'Pa*s'     }
+    {'Cp1'      }    {'4184.1'           }    {'PROPRIEDADE - P…'}    {[4.1841e+03]}    {0×0 char   }
+    {'rho1'     }    {'998.2'            }    {'PROPRIEDADE - P…'}    {[  998.2000]}    {0×0 char   }
+    {'k1'       }    {'0.6034'           }    {'PROPRIEDADE - P…'}    {[    0.6034]}    {0×0 char   }
+    {'alphap1'  }    {'0.0002066[1/K]'   }    {0×0 char           }    {[2.0660e-04]}    {'1/K'      }
+    {'u_x'      }    {'0[m/s]'           }    {0×0 char           }    {[         0]}    {'m/s'      }
+    {'v_y'      }    {'0[m/s]'           }    {0×0 char           }    {[         0]}    {'m/s'      }
+    {'w_z'      }    {'0[m/s]'           }    {0×0 char           }    {[         0]}    {'m/s'      }
+    {'t_inicial'}    {'0'                }    {'TEMPO          …'}    {[         0]}    {0×0 char   }
+    {'t_final'  }    {'96'               }    {'TEMPO          …'}    {[        96]}    {0×0 char   }
+    {'delta_t'  }    {'1'                }    {'TEMPO          …'}    {[         1]}    {0×0 char   }
+    {'EIXO_x'   }    {'10[mm]'           }    {0×0 char           }    {[    0.0100]}    {'m'        }
+    {'EIXO_y'   }    {'0[m]'             }    {0×0 char           }    {[         0]}    {'m'        }
+
+Elapsed time is 1517.998715 seconds.
+
+{'VOLUME'   }    {'1*10^-5[m^3]'     }    {'GEOMETRIA    - …'}    {[1.0000e-05]}    {'m^3'      }
+    {'RAIO'     }    {'0.028[m]'         }    {'GEOMETRIA    - …'}    {[    0.0280]}    {'m'        }
+    {'ALTURA'   }    {'VOLUME/(pi*RAIO…'}    {'GEOMETRIA    - …'}    {[    0.0041]}    {'m'        }
+    {'To'       }    {'24.8[degC]'       }    {'PROB.FÍSICO   -…'}    {[  297.9500]}    {'K'        }
+    {'Tinf'     }    {'24.8[degC]'       }    {'PROB.FÍSICO   -…'}    {[  297.9500]}    {'K'        }
+    {'hconv'    }    {'10[W/(m^2*K)]'    }    {'PROB.FÍSICO   -…'}    {[        10]}    {'W/(m^2*K)'}
+    {'r_laser'  }    {'(11/2)[mm]'       }    {'PROB.FÍSICO   -…'}    {[    0.0055]}    {'m'        }
+    {'A_laser'  }    {'pi*(r_laser^2)'   }    {'PROB.FÍSICO   -…'}    {[9.5033e-05]}    {'m^2'      }
+    {'P_laser'  }    {'0.327[W]'         }    {'PROB.FÍSICO   -…'}    {[    0.3270]}    {'W'        }
+    {'F'        }    {'2*P_laser/A_laser'}    {'PROB.FÍSICO   -…'}    {[6.8818e+03]}    {'W/m^2'    }
+    {'Mi_H2O'   }    {'13.72'            }    {'PROPRIEDADE - C…'}    {[   13.7200]}    {0×0 char   }
+    {'R_H2O'    }    {'0.02'             }    {'PROPRIEDADE - R…'}    {[    0.0200]}    {0×0 char   }
+    {'Tref'     }    {'Tinf'             }    {0×0 char           }    {[  297.9500]}    {'K'        }
+    {'mu1'      }    {'1.0017*(10^-3)[…'}    {'PROPRIEDADE - P…'}    {[    0.0010]}    {'Pa*s'     }
+    {'Cp1'      }    {'4184.1'           }    {'PROPRIEDADE - P…'}    {[4.1841e+03]}    {0×0 char   }
+    {'rho1'     }    {'998.2'            }    {'PROPRIEDADE - P…'}    {[  998.2000]}    {0×0 char   }
+    {'k1'       }    {'0.6034'           }    {'PROPRIEDADE - P…'}    {[    0.6034]}    {0×0 char   }
+    {'alphap1'  }    {'0.0002066[1/K]'   }    {0×0 char           }    {[2.0660e-04]}    {'1/K'      }
+    {'u_x'      }    {'0[m/s]'           }    {0×0 char           }    {[         0]}    {'m/s'      }
+    {'v_y'      }    {'0[m/s]'           }    {0×0 char           }    {[         0]}    {'m/s'      }
+    {'w_z'      }    {'0[m/s]'           }    {0×0 char           }    {[         0]}    {'m/s'      }
+    {'t_inicial'}    {'0'                }    {'TEMPO          …'}    {[         0]}    {0×0 char   }
+    {'t_final'  }    {'96'               }    {'TEMPO          …'}    {[        96]}    {0×0 char   }
+    {'delta_t'  }    {'1'                }    {'TEMPO          …'}    {[         1]}    {0×0 char   }
+    {'EIXO_x'   }    {'10[mm]'           }    {0×0 char           }    {[    0.0100]}    {'m'        }
+    {'EIXO_y'   }    {'0[m]'             }    {0×0 char           }    {[         0]}    {'m'        }
+
+Elapsed time is 1445.440041 seconds.
+
+    {'VOLUME'   }    {'1*10^-5[m^3]'     }    {'GEOMETRIA    - …'}    {[1.0000e-05]}    {'m^3'      }
+    {'RAIO'     }    {'0.028[m]'         }    {'GEOMETRIA    - …'}    {[    0.0280]}    {'m'        }
+    {'ALTURA'   }    {'VOLUME/(pi*RAIO…'}    {'GEOMETRIA    - …'}    {[    0.0041]}    {'m'        }
+    {'To'       }    {'24.8[degC]'       }    {'PROB.FÍSICO   -…'}    {[  297.9500]}    {'K'        }
+    {'Tinf'     }    {'24.8[degC]'       }    {'PROB.FÍSICO   -…'}    {[  297.9500]}    {'K'        }
+    {'hconv'    }    {'10[W/(m^2*K)]'    }    {'PROB.FÍSICO   -…'}    {[        10]}    {'W/(m^2*K)'}
+    {'r_laser'  }    {'(11/2)[mm]'       }    {'PROB.FÍSICO   -…'}    {[    0.0055]}    {'m'        }
+    {'A_laser'  }    {'pi*(r_laser^2)'   }    {'PROB.FÍSICO   -…'}    {[9.5033e-05]}    {'m^2'      }
+    {'P_laser'  }    {'0.327[W]'         }    {'PROB.FÍSICO   -…'}    {[    0.3270]}    {'W'        }
+    {'F'        }    {'2*P_laser/A_laser'}    {'PROB.FÍSICO   -…'}    {[6.8818e+03]}    {'W/m^2'    }
+    {'Mi_H2O'   }    {'1.96'             }    {'PROPRIEDADE - C…'}    {[    1.9600]}    {0×0 char   }
+    {'R_H2O'    }    {'0.02'             }    {'PROPRIEDADE - R…'}    {[    0.0200]}    {0×0 char   }
+    {'Tref'     }    {'Tinf'             }    {0×0 char           }    {[  297.9500]}    {'K'        }
+    {'mu1'      }    {'1.0017*(10^-3)[…'}    {'PROPRIEDADE - P…'}    {[    0.0010]}    {'Pa*s'     }
+    {'Cp1'      }    {'4184.1'           }    {'PROPRIEDADE - P…'}    {[4.1841e+03]}    {0×0 char   }
+    {'rho1'     }    {'998.2'            }    {'PROPRIEDADE - P…'}    {[  998.2000]}    {0×0 char   }
+    {'k1'       }    {'0.6034'           }    {'PROPRIEDADE - P…'}    {[    0.6034]}    {0×0 char   }
+    {'alphap1'  }    {'0.0002066[1/K]'   }    {0×0 char           }    {[2.0660e-04]}    {'1/K'      }
+    {'u_x'      }    {'0[m/s]'           }    {0×0 char           }    {[         0]}    {'m/s'      }
+    {'v_y'      }    {'0[m/s]'           }    {0×0 char           }    {[         0]}    {'m/s'      }
+    {'w_z'      }    {'0[m/s]'           }    {0×0 char           }    {[         0]}    {'m/s'      }
+    {'t_inicial'}    {'0'                }    {'TEMPO          …'}    {[         0]}    {0×0 char   }
+    {'t_final'  }    {'96'               }    {'TEMPO          …'}    {[        96]}    {0×0 char   }
+    {'delta_t'  }    {'1'                }    {'TEMPO          …'}    {[         1]}    {0×0 char   }
+    {'EIXO_x'   }    {'10[mm]'           }    {0×0 char           }    {[    0.0100]}    {'m'        }
+    {'EIXO_y'   }    {'0[m]'             }    {0×0 char           }    {[         0]}    {'m'        }
+
+Elapsed time is 1459.058052 seconds.
